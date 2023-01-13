@@ -398,6 +398,7 @@ class Topology extends React.Component<ITopologyProps, ITopologyState> {
             deleteSelectedData(data, selectedData),
             ChangeType.DELETE
         );
+        this.clearSelectData();
     };
 
     setDraggingId = (id) => {
